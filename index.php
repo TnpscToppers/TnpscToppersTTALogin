@@ -34,7 +34,8 @@ and pwd='$pwd'";
     }else{
 ?>
 <div class="form">
-<center><h1 style="font-family:Calibri">Log In</h1></center>
+<center><h1 style="font-family:Calibri">Tnpsc Toppers Academy</h1></center>
+<center><h3 style="font-family:Calibri">Log In</h3></center>
 <form action="" method="post" name="login">
 <div class="input-group">
 	<input type="text" name="name" placeholder="Username" required />
