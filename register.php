@@ -53,7 +53,7 @@ include('server.php'); ?>
 	<input type="text" name="email" value="<?php echo $email; ?>" required></input>
 		</div>
 		<div class="input-group">
-			<label style="font-family:Calibri;color:white;">Pwd *</label>
+			<label style="font-family:Calibri;color:white;">Password *</label>
 			
 	<input type="password" name="pwd" value="<?php echo $pwd; ?>" required></input>
 		</div>
