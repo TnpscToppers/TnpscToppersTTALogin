@@ -57,13 +57,13 @@ include('server.php'); ?>
 			
 	<input type="password" name="pwd" value="<?php echo $pwd; ?>">
 		</div>
-		<div class="input-group">
+		<center><div class="input-group">
 			<?php if ($update == true): ?>
 	<button class="btn" type="submit" name="update" style="background: #556B2F;" >Update</button>
 <?php else: ?>
 	<button class="btn" type="submit" name="save">Sign up</button>
 <?php endif ?>
-	<a href='index.php' class="btn" style="font-family:Calibri; font-size:15px;">Login</a></div>
+	<a href='index.php' class="btn" style="font-family:Calibri; font-size:15px;">Login</a></div></center>
 		</div>
 	</form>
 
