@@ -52,6 +52,7 @@ and pwd='$pwd'";
 	<center><input class="btn" name="submit" type="submit" value="Login" /></center>
 </form>
 <center><p style="font-family:Calibri; color:white;">Not registered yet? <a href='register.php'>Register Here</a></p></center>
+	<center><p style="font-family:Calibri; color:white;">If the login is not successful try registering with valid mobile number. Thanks !!</center>
 </div>
 <?php } ?>
 </body>
