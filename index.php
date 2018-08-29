@@ -51,7 +51,7 @@ and pwd='$pwd'";
 </div>
 <input class="btn" name="submit" type="submit" value="Login" />
 </form>
-<center><p style="font-family:Calibri">Not registered yet? <a href='register.php'>Register Here</a></p></center>
+<center><p style="font-family:Calibri; color:white;">Not registered yet? <a href='register.php'>Register Here</a></p></center>
 </div>
 <?php } ?>
 </body>
