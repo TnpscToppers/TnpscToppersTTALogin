@@ -66,7 +66,7 @@ include('server.php'); ?>
 	<a href='index.php' class="btn" style="font-family:Calibri; font-size:15px;">Login</a></div></center>
 		</div>
 	</form>
-
+<center><p style="font-family:Calibri; color:white;">If the login is not successful try registering with valid mobile number. Thanks !!</center>
 
 </body>
 </html>
