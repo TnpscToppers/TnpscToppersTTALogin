@@ -38,24 +38,24 @@ include('server.php'); ?>
 	<form method="post" action="server.php" >
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 		<div class="input-group">
-			<label style="font-family:Calibri;color:white;">User Name *</label>
+			<label>User Name *</label>
 			
-			<input type="text" name="name" value="<?php echo $name; ?>">
+			<input type="text" name="name" value="<?php echo $name; ?>" required></input>
 		</div>
 		<div class="input-group">
-			<label style="font-family:Calibri;color:white;">Phone *</label>
+			<label>Phone *</label>
 			
-	<input type="text" name="phone" value="<?php echo $phone; ?>">
+	<input type="text" name="phone" pattern="[1-9]{1}[0-9]{9}" value="<?php echo $phone; ?>" required></input>
 		</div>
 		<div class="input-group">
-			<label style="font-family:Calibri;color:white;">Email *</label>
+			<label>Email *</label>
 			
-	<input type="text" name="email" value="<?php echo $email; ?>">
+	<input type="text" name="email" value="<?php echo $email; ?>" required></input>
 		</div>
 		<div class="input-group">
-			<label style="font-family:Calibri;color:white;">Password *</label>
+			<label>Pwd *</label>
 			
-	<input type="password" name="pwd" value="<?php echo $pwd; ?>">
+	<input type="password" name="pwd" value="<?php echo $pwd; ?>" required></input>
 		</div>
 		<center><div class="input-group">
 			<?php if ($update == true): ?>
