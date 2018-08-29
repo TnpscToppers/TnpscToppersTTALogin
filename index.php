@@ -49,7 +49,7 @@ and pwd='$pwd'";
 <div class="input-group">
 	<input type="password" name="pwd" placeholder="Password" required />
 </div>
-<input class="btn" name="submit" type="submit" value="Login" />
+	<center><input class="btn" name="submit" type="submit" value="Login" /></center>
 </form>
 <center><p style="font-family:Calibri; color:white;">Not registered yet? <a href='register.php'>Register Here</a></p></center>
 </div>
