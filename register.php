@@ -30,7 +30,11 @@ include('server.php'); ?>
 <!--ends here-->
 <!-- to display the details from the db in html -->
 <?php $results = pg_query($db, "SELECT * FROM logintta"); ?>
-
+<center><div class="bgindex">
+			<p class="headtextindex"> TNPSC TOPPERS ACADEMY
+			<p class="p1index" style="text-align:center">- a simplified learning methodology</p>
+			</p>
+			</div></center>
 	<form method="post" action="server.php" >
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 		<div class="input-group">
