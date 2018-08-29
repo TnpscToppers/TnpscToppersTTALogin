@@ -49,7 +49,7 @@ include('server.php'); ?>
 <?php else: ?>
 	<button class="btn" type="submit" name="save">Sign up</button>
 <?php endif ?>
-	<a href='login.php' class="btn" style="font-family:Calibri; font-size:15px;">Login</a></div>
+	<a href='index.php' class="btn" style="font-family:Calibri; font-size:15px;">Login</a></div>
 		</div>
 	</form>
 
