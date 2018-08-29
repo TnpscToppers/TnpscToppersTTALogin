@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>LOGIN TTA</title>
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="home2.css" />
 </head>
 <body>
 <?php
@@ -34,8 +35,11 @@ and pwd='$pwd'";
     }else{
 ?>
 <div class="form">
-<center><h1 style="font-family:Calibri">Tnpsc Toppers Academy</h1></center>
-<center><h3 style="font-family:Calibri">Log In</h3></center>
+		<center><div class="bgindex">
+			<p class="headtextindex"> TNPSC TOPPERS ACADEMY
+			<p class="p1index" style="text-align:center">- a simplified learning methodology</p>
+			</p>
+			</div></center>
 <form action="" method="post" name="login">
 <div class="input-group">
 	<input type="text" name="name" placeholder="Username" required />
