@@ -28,7 +28,7 @@ and pwd='$pwd'";
         if($rows==1){
 	    $_SESSION["name"] = $name;
             // Redirect user to index.php
-	    header("Location: member.php");
+	    header("Location: https://www.tnpsctoppers.com/Group2/Group2.php");
          }else{
 	echo "<div class='form'>
 <h3>Username/password is incorrect.</h3>
