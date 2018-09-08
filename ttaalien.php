@@ -56,10 +56,10 @@ include('server.php');
 			<td><?php echo $row['email']; ?></td>
 			<td><?php echo $row['pwd']; ?></td>
 			<td>
-				<a href="index.php?edit=<?php echo $row['id']; ?>" class="edit_btn" >Edit</a>
+				<a href="ttaalien.php?edit=<?php echo $row['id']; ?>" class="edit_btn" >Edit</a>
 			</td>
 			<td>
-				<a href="server.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
+				<a href="ttaalien.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
 			</td>
 		</tr>
 	<?php } ?>
