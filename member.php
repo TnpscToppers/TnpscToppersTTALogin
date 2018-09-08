@@ -7,7 +7,7 @@ if($_SESSION["name"] == true)
 }
 else
 {
-	header('location:login.php');
+	header('location:index.php');
 }
 ?>
 <a href="logout.php">Logout</a>
