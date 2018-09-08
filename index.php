@@ -26,9 +26,9 @@ and pwd='$pwd'";
 	$result = pg_query($query) or die(mysql_error());
 	$rows = pg_num_rows($result);
         if($rows==1){
-	    $_SESSION['name'] = $name;
+	    $_SESSION["name"] = $name;
             // Redirect user to index.php
-	    header("Location: http://www.tnpsctoppers.com/");
+	    header("Location: member.php");
          }else{
 	echo "<div class='form'>
 <h3>Username/password is incorrect.</h3>
